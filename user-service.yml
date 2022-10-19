@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    # password: '{cipher}631d72a0b0a8ef85b69b7f4657c454b7385d0c8824959eef9e5caa90f3657e93'
+    password: '{cipher}AQA4mhTmwhe3U85rn2Aeovb7RZ9z9fwm9C7+QY9Lajya/QBG25RM6Jru/3YnT6c/rP1i5gdCbwJOF9HB3nfZvT8JWUD8PB/YnxrwIaoQE93+KHwGyUoZC7LVNwvvw+8OC2rfuRnxuMSMtXC+NZoOUYIPgxbweTp0btR4KI6P4V9tlBvssK86wdRTmyKUu9vjUf9tZbRhROhI67sumujh5xmqUxgaAy2f8qDLHJ9nsdEInVzHLE3Tl/sIfBWmm3CP6b3JQUXVoprfAttnUkhEu+sHHc8iqY4lKwebuRqsVM3F7+A9b/l9UcNWgEfTxlyHqPDPMXEt+J2QzPQlHmppIccN4LCnXGScAwHVbcaS6HH8JygCtTxjsDUhlbuKeSFmYOw='
+
+token:
+  expiration_time: 86400000 # 60 * 60 * 24 * 1000 (하루)
+  secret: comCloudServiceBootUserServiceSecretKeyAuthorizationJwtManageTokenNativeChanged
+
+gateway:
+  ip: 59.29.153.172
