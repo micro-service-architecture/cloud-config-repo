@@ -3,4 +3,4 @@ token:
   secret: comCloudServiceBootUserServiceSecretKeyAuthorizationJwtManageTokenNativeChanged
 
 gateway:
-  ip: 59.29.153.177
+  ip: 172.18.0.5
